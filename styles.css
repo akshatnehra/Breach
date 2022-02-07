@@ -1,0 +1,123 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  /* background-color: rgb(107 56 31); */
+  background-color: #272625;
+  color: white;
+}
+nav {
+  padding: 1em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+nav > h1 {
+  margin-left: 1em;
+}
+.nav-items {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+nav li {
+  font-size: 1.25em;
+  font-weight: 600;
+  padding-right: 1em;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+body > img {
+  /* height: 97vh; */
+  width: 97vw;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.about-section {
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+.about-section > h2 {
+  padding-bottom: 1em;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 2em;
+}
+.about-section > p {
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+body > h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 2em;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.container {
+  padding-top: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-left: 2em;
+  max-width: 100vw;
+}
+@media screen and (max-width: 590px) {
+  .container {
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  .container > div {
+    margin-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  body > img {
+    padding: 0;
+    margin: 0;
+  }
+  .about-section p {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+}
+.container img {
+  height: 15vh;
+}
+@media screen and (min-width: 590px) {
+  .container > div {
+    padding-right: 2rem;
+  }
+}
+
+.container h3 {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: 1.3em;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.container p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer {
+  text-align: center;
+  padding-top: 5em;
+  padding-bottom: 1em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.75em;
+  font-weight: 8000;
+}
+#top-footer {
+  padding-bottom: 0.5em;
+}
